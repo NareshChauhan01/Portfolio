@@ -4,11 +4,13 @@
 :root {
   --text-color: #0F0F0F;
   --light-blue: #8293fd;
+  --hover-light-blue: #6f81f7;
   --background-color: #F7F8FC;
   --box-shadow: rgba(157, 157, 157, 0.2) 0px 4px 10px;
-  --heading-color-1: #F9FAFB;
+  --text-white: #F9FAFB;
   --heading-color-2: #FFFFFF;
-  --font-weight: 500
+  --font-weight: 500;
+  --gray-text-color: #6D6A7A;
 }
 
 .darkmode {
@@ -16,9 +18,10 @@
   --light-blue: #8293fd;
   --background-color: #000000;
   --box-shadow: rgba(102, 116, 204, 0.25) 0px 4px 10px;
-  --heading-color-1: #F9FAFB;
+  --text-white: #F9FAFB;
   --heading-color-2: #FFFFFF;
-  --font-weight: 400
+  --font-weight: 400;
+  --gray-text-color: #F3F4F6;
 }
 
 /* resets */
@@ -26,6 +29,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
 }
 
 html,
@@ -62,10 +66,34 @@ a {
   display: grid;
 }
 
-.nav-container {
+.container {
   max-width: 1100px;
   width: 100%;
   margin: 0 3rem;
+}
+
+.button {
+  padding: 12px 14px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  gap: 8px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: var(--light-blue);
+  font-weight: 500;
+  color: var(--text-white);
+  cursor: pointer;
+  transition: all .2s linear;
+}
+
+.button:hover {
+  background-color: var(--hover-light-blue);
+}
+
+.section {
+  padding: 8em 0;
 }
 
 /* Header */
@@ -159,10 +187,88 @@ header ul li a:hover {
   display: none;
 }
 
+/* Hero-Section */
+
+.hero-section {
+  width: 100%;
+  height: 80%;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.sub-hero-section {
+  display: flex;
+  height: 320px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  /* align-content: center; */
+}
+
+.hero-section span {
+  color: var(--light-blue);
+}
+
+.sub-hero-section div:nth-child(1) p {
+  color: var(--text-color);
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.sub-hero-section div:nth-child(2) {
+  color: var(--text-color);
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.hero-section .title {
+  color: var(--gray-text-color);
+  font-size: 18px;
+  margin: 16px 0 16px;
+}
+
+.sub-section-2 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.scroll-down-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.scroll-down-btn:hover {
+  transform: translateY(5px);
+  transition: transform .5s ease;
+}
+
+.scroll-down-btn i:nth-child(1) {
+  font-size: 2.2rem;
+}
+
+.scroll-down-btn i:nth-child(2) {
+  font-size: 1.2rem;
+}
+
+.scroll-down-btn i {
+  color: var(--light-blue);
+}
 
 /* Media query */
 @media (max-width:1100px) {
-  .nav-container {
+  .container {
     max-width: 864px;
   }
 }
@@ -192,7 +298,7 @@ header ul li a:hover {
     left: 0;
     z-index: -1;
     transform: translateY(-100%);
-    transition: all .4s linear;
+    transition: all .2s linear;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -234,7 +340,7 @@ header ul li a:hover {
 
 
 @media (max-width:476px) {
-  .nav-container {
+  .container {
     margin: 0 2rem;
   }
 }
