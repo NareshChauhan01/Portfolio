@@ -15,11 +15,11 @@ Link :- https://nareshchauhan01.github.io/Portfolio/
 
 <h2>Features</h2>
 
-<li>**Project Showcase:**Display of various projects I've worked on, along with descriptions, screenshots, and links.</li>
-<li>**Skills:**Overview of my technical skills, tools, and technologies I'm proficient in.</li>
-<li>**About Me:**brief introduction to who I am, my background, and my passion for technology.</li>
-<li>**Contact:**A way for visitors to get in touch with me. This could include a contact form or links to social media profiles.</li>
-<li>**Responsive Design:**The website is designed to be accessible and visually appealing on different devices and screen sizes.</li>
+<li>**Project Showcase:** Display of various projects I've worked on, along with descriptions, screenshots, and links.</li>
+<li>**Skills:** Overview of my technical skills, tools, and technologies I'm proficient in.</li>
+<li>**About me:** A brief introduction to who I am, my background, and my passion for technology.</li>
+<li>**Contact:** A way for visitors to get in touch with me. This could include a contact form or links to social media profiles.</li>
+<li>**Responsive Design:** The website is designed to be accessible and visually appealing on different devices and screen sizes.</li>
 
 <h2>Technologies Used</h2>
 
