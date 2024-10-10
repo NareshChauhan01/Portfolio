@@ -25,8 +25,10 @@ Link :- <a href="https://nareshchauhan01.github.io/Portfolio/" target="_blank">V
 
 <li>HTML</li>
 <li>CSS</li>
-<li>Java Script</li>
+<li>JavaScript</li>
 
 <h2>Contact</h2>
-If you have any questions or suggestions regarding this project, please feel free to contact Email - <a href="mailto:nareshsingh0170@gmail.com">nareshsingh0170@gmail.com</a>
+If you have any questions or suggestions regarding this project, please feel free to contact Email - <p>Contact me: 
+    <a href="mailto:nareshsingh0170@gmail.com">nareshsingh0170@gmail.com</a>
+</p>
 
