@@ -6,12 +6,12 @@ Link :- <a href="https://nareshchauhan01.github.io/Portfolio/" target="_blank">V
 
 <h2>Pages</h2>
 
-<li>Home</li>
-<li>About</li>
-<li>Skills</li>
-<li>Qualifications</li>
-<li>Projects</li>
-<li>Contact Me </li>
+* Home
+* About
+* Skills
+* Qualifications
+* Projects
+* Contact Me
 
 <h2>Features</h2>
 
@@ -23,9 +23,9 @@ Link :- <a href="https://nareshchauhan01.github.io/Portfolio/" target="_blank">V
 
 <h2>Technologies Used</h2>
 
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
+* HTML
+* CSS
+* JavaScript
 
 <h2>Contact</h2>
 If you have any questions or suggestions regarding this project, please feel free to contact Email - <p>Contact me: 
