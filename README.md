@@ -13,3 +13,20 @@ Link :- https://nareshchauhan01.github.io/Portfolio/
 <li>Projects</li>
 <li>Contact Me </li>
 
+<h2>Features</h2>
+
+<li><h6>Project Showcase:</h6>Display of various projects I've worked on, along with descriptions, screenshots, and links.</li>
+<li><h6>Skills:</h6>Overview of my technical skills, tools, and technologies I'm proficient in.</li>
+<li><h6>About Me:</h6> brief introduction to who I am, my background, and my passion for technology.</li>
+<li><h6>Contact:</h6>A way for visitors to get in touch with me. This could include a contact form or links to social media profiles.</li>
+<li><h6>Responsive Design:</h6>The website is designed to be accessible and visually appealing on different devices and screen sizes.</li>
+
+<h2>Technologies Used</h2>
+
+<li>HTML</li>
+<li>CSS</li>
+<li>Java Script</li>
+
+<h2>Contact</h2>
+If you have any questions or suggestions regarding this project, please feel free to contact Email - nareshsingh0170@gmail.com
+
