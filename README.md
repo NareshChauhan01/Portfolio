@@ -28,5 +28,5 @@ Link :- https://nareshchauhan01.github.io/Portfolio/
 <li>Java Script</li>
 
 <h2>Contact</h2>
-If you have any questions or suggestions regarding this project, please feel free to contact Email - nareshsingh0170@gmail.com
+If you have any questions or suggestions regarding this project, please feel free to contact Email - <a href="mailto:nareshsingh0170@gmail.com">nareshsingh0170@gmail.com</a>
 
