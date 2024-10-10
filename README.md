@@ -21,6 +21,8 @@ Link :- https://nareshchauhan01.github.io/Portfolio/
 <li>**Contact:** A way for visitors to get in touch with me. This could include a contact form or links to social media profiles.</li>
 <li>**Responsive Design:** The website is designed to be accessible and visually appealing on different devices and screen sizes.</li>
 
+🔭 I’m currently working on **Mern Stack**
+
 <h2>Technologies Used</h2>
 
 <li>HTML</li>
