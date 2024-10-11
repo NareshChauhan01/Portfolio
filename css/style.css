@@ -19,7 +19,7 @@
   --light-blue: #8293fd;
   --background-color: #000000;
   --box-shadow: rgba(102, 116, 204, 0.25) 0px 4px 10px;
-  --text-white: #F9FAFB;
+  --text-white: #000000;
   --heading-color-2: #FFFFFF;
   --font-weight: 400;
   --gray-text-color: #F3F4F6;
@@ -295,6 +295,12 @@ header ul li a:hover {
 }
 
 /* About Section */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .about-section .about {
   display: flex;
   align-items: start;
@@ -316,6 +322,11 @@ header ul li a:hover {
   width: 76%;
   text-align: justify;
   color: var(--gray-text-color);
+}
+
+.about-section .description {
+  color: var(--gray-text-color);
+  /* font-size: 18px; */
 }
 
 .about-section .about button {
@@ -342,10 +353,15 @@ header ul li a:hover {
   z-index: -1;
 }
 
+.timeline li b {
+  color: var(--text-color);
+}
+
 .timeline li {
   display: block;
   margin: 5px 0;
-  color: var(--text-color);
+  /* color: var(--text-color); */
+  color: var(--gray-text-color);
 }
 
 .timeline li b {
@@ -365,6 +381,12 @@ header ul li a:hover {
 }
 
 /* Skill */
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .progress-skills {
   display: flex;
   flex-wrap: wrap;
@@ -454,6 +476,89 @@ header ul li a:hover {
 
 .c-plus-plus .progress-value {
   width: 70%;
+}
+
+/* Education */
+.sub-education-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+}
+
+
+.education-section .timeline {
+  position: relative;
+  padding-left: 30px;
+  z-index: 1;
+}
+
+.education-section .timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 9px;
+  margin: auto;
+  width: 1px;
+  height: 92%;
+  background-color: #cacdd6;
+  z-index: -1;
+}
+
+
+.education-section .timeline li {
+  display: block;
+  margin: 5px 0;
+  color: var(--gray-text-color);
+}
+
+.education-section .timeline li::before {
+  content: "";
+  position: absolute;
+  left: 3px;
+  margin: 6px 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--white);
+  border: 2px solid var(--light-blue);
+}
+
+.education-section .timeline .active {
+  background-color: var(--light-blue);
+}
+
+.education-section .year {
+  background-color: var(--gray-text-color);
+  width: 150px;
+  padding: 6px 15px;
+  color: var(--text-white);
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 30px 0 60px 30px;
+
+}
+
+.education-section .desc {
+  /* background-color: #bbc8f5; */
+  border: .1px solid #e5e7eb;
+  padding: 20px;
+  border-radius: 6px;
+  margin: 12px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.education-section .desc div:nth-child(1) {
+  font-size: 20px;
+}
+
+.education-section .desc div:nth-child(2) {
+  color: var(--light-blue);
 }
 
 /* Media query */
