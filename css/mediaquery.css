@@ -1,0 +1,290 @@
+/* Media query */
+@media (max-width:1100px) {
+  .container {
+    max-width: 850px;
+  }
+
+  /* About */
+  .progress {
+    width: 400px;
+  }
+}
+
+@media (max-width:1080px) {
+  .container {
+    max-width: 850px;
+  }
+
+  /* Hero Section */
+  .sub-hero-section div:nth-child(1) p {
+    font-size: 35px;
+  }
+
+  .sub-hero-section div:nth-child(2) {
+    font-size: 36px;
+  }
+}
+
+@media (max-width:992px) {
+  .container {
+    max-width: 800px;
+  }
+
+  /* About */
+  .progress {
+    width: 380px;
+  }
+
+}
+
+
+@media (max-width:850px) {
+
+  .container {
+    max-width: 700px;
+    margin: 0 2rem;
+  }
+
+  .menu-btn i {
+    display: block;
+  }
+
+  header {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .navbar-list {
+    width: 100% !important;
+    height: 55vh;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: rgba(157, 157, 157, 0.2) 0px 4px 10px;
+    backdrop-filter: blur(16px);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: -1;
+    transform: translateY(-100%);
+    transition: all .2s linear;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .navbar-list ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: start;
+    padding: 1rem 0;
+  }
+
+  .active-header .navbar-list {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .active-header .mobile-nav-icon:nth-child(1) {
+    display: none;
+  }
+
+  .active-header .mobile-nav-icon:nth-child(2) {
+    display: block;
+  }
+
+  .menu-btn {
+    width: 85%;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    justify-content: center;
+    height: 450px;
+    padding-top: 4rem;
+  }
+
+  .hero-container {
+    height: 400px;
+    gap: 1rem;
+  }
+
+  .sub-hero-section div:nth-child(1) p {
+    font-size: 30px;
+  }
+
+  .sub-hero-section div:nth-child(2) {
+    font-size: 32px;
+  }
+
+  .hero-section .title {
+    font-size: 17px;
+  }
+
+  .button {
+    font-size: 17px;
+  }
+
+  /* About Section */
+  .about-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .progress {
+    width: 320px;
+  }
+
+  .skill-section {
+    justify-content: center;
+  }
+
+  /* Contact */
+  .contact-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-section form .contact-input {
+    flex-direction: column;
+  }
+
+  form {
+    width: 400px;
+  }
+}
+
+@media (max-width:776px) {
+
+  /* About */
+  .progress {
+    width: 520px;
+  }
+
+  /* Contact */
+  .parent-section {
+    flex-direction: column;
+    /* align-items: center; */
+  }
+
+  form {
+    width: 95%;
+  }
+
+  /* Footer */
+  footer .footer-container {
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+
+  footer .footer-container div {
+    width: 100%;
+  }
+
+
+}
+
+@media (max-width:676px) {
+
+  /* About */
+  .progress {
+    width: 490px;
+  }
+
+  .container {
+    max-width: 570px;
+    margin: 0 2rem;
+  }
+
+  /* Education */
+  .education-section .timeline {
+    width: 500px;
+  }
+}
+
+@media (max-width:576px) {
+
+  /* Hero Section */
+  .sub-hero-section div:nth-child(1) p {
+    font-size: 22px;
+  }
+
+  .sub-hero-section div:nth-child(2) {
+    font-size: 25px;
+  }
+
+  .hero-section .title {
+    font-size: 16px;
+  }
+
+  .button {
+    font-size: 16px;
+  }
+
+  /* About */
+  .about-section .title {
+    font-size: 28px;
+    color: var(--text-color);
+  }
+
+  .progress {
+    width: 400px;
+  }
+
+  /* Education */
+  .education-section .timeline {
+    width: 400px;
+  }
+
+}
+
+
+@media (max-width:476px) {
+  .container {
+    margin: 0 1.8rem;
+  }
+
+  /* Hero Section */
+  .hero-section .title {
+    width: 100%;
+  }
+
+  .sub-hero-section div:nth-child(1) p {
+    font-size: 19px;
+  }
+
+  .sub-hero-section div:nth-child(2) {
+    font-size: 22px;
+  }
+
+  /* About */
+  .progress {
+    width: 350px;
+  }
+
+  /* Education */
+  .education-section .timeline {
+    width: 350px;
+  }
+}
+
+@media (max-width:376px) {
+
+  /* Hero Section */
+  .sub-hero-section div:nth-child(1) p {
+    font-size: 17px;
+  }
+
+  .sub-hero-section div:nth-child(2) {
+    font-size: 17px;
+  }
+
+  /* About */
+  .progress {
+    width: 300px;
+  }
+}
